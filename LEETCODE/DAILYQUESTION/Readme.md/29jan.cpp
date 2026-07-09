@@ -1,4 +1,6 @@
 //https://leetcode.com/problems/minimum-cost-to-convert-string-i/
+#include<stdio.h>
+
 class Solution {
 public:
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
